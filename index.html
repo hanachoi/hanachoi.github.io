@@ -1,1 +1,58 @@
-Hi, forks!!!
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-lg-offset-1"><p class="text-center"><img src="/assets/hanachoi.jpg" class="photo"></p></div>
+    <div class="col-lg-5">
+      <p class="personal_info"><strong>Hana Choi</strong></p>
+
+      <p>
+      PhD. Candidate in Marketing<br>
+      Fuqua School of Business, Duke University
+      </p>
+
+      <address>
+      Email: <a href="mailto:hana.choi@duke.edu">hana.choi@duke.edu</a><br>
+      Phone: 734-834-0699<br>
+      Address: 100 Fuqua Drive, Durham NC, 27708
+      </address>
+    </div>
+  </div>
+
+  <hr style="margin-top: 50px;">
+
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {% for post in site.posts %}
+        {% if post.category == 'working papers' or post.category == 'publications' %}
+          <div class="post-preview">
+            <a {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
+              <h2 class="post-title">{{ post.title }}</h2>
+              <h3 class="post-subtitle">{{ post.co-authors }}</h3>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+      <ul class="pager">
+        <li class="next">
+          <a href="/research.html">Older Research →</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
