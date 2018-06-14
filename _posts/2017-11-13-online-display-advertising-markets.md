@@ -1,5 +1,5 @@
 ---
-title: Online Display Advertising Markets: A Literature Review and Future Directions
+title: "Online Display Advertising Markets: A Literature Review and Future Directions"
 co-authors: with Carl Mela, Santiago Balseiro, Adam Leary
 pdf-url: /research-papers/171113-choi-mela-balseiro-leary-online-display-advertising-markets-180614.pdf
 category: working papers
