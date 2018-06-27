@@ -1,6 +1,6 @@
 ---
 title: Display Advertising Pricing in Exchange Markets
-co-authors: with Carl Mela
+co-authors: with Carl Mela<br> Job Market Paper
 pdf-url: /research-papers/choi_mela_optimal_reserve.pdf
 category: working papers
 ---
