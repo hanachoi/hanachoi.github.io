@@ -1,6 +1,6 @@
 ---
 title: Monetizing Online Marketplace
-co-authors: with Carl Mela<br> revising for 2nd roudn at Marketing Science
+co-authors: with Carl Mela<br> revising for 2nd round at Marketing Science
 pdf-url: /research-papers/choi_mela_online_marketplace.pdf
 category: working papers
 ---
