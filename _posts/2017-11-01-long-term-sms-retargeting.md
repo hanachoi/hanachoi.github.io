@@ -1,3 +1,4 @@
+---
 title: Long-Term Effect of SMS Retargeting: Balancing Opt-Out and Short-Term Direct Responses
 co-authors: Data collected, analysis in progress
 category: work in progress
