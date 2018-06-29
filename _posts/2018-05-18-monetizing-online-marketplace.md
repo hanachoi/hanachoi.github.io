@@ -1,6 +1,6 @@
 ---
 title: Monetizing Online Marketplace
-co-authors: with Carl Mela<br> revising for 2nd round at Marketing Science
+co-authors: with Carl Mela<br> Revising for 2nd round at Marketing Science<br> MSI Working Paper Series No. 18-112-05<br> Previously titled "Online Marketplace Advertising"
 pdf-url: /research-papers/choi_mela_online_marketplace.pdf
 category: working papers
 ---
