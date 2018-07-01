@@ -26,7 +26,7 @@ active: research
                 </a>
                 <div class="post__subtitle">{{ post.co-authors }}</div>
                 <div class="post__content">
-                  <p class="text-justify">{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+                  <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
                 </div>
               </div>
             {% endfor %}
