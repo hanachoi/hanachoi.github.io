@@ -1,0 +1,55 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "nanumgothic";
+@import "contact_info";
+@import "research_interest";
+@import "navbar_custom";
+@import "container_custom";
+@import "btn_custom";
+@import "post";
+@import "research";
+
+body {
+  font-family: AppleSDGothicNeo-regular, 'Times New Roman', serif;
+  color: #090909;
+}
+
+a {
+  color: black;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.intro-header {
+  margin-bottom: 10px;
+}
+
+.researches {
+  margin-top: 20px;
+}
+
+.researches:first-child {
+  margin-top: 0;
+}
+
+.personal_info {
+  font-size: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .researches__category {
+    font-size: 48px;
+  }
+
+  .photo {
+    max-width: 100%;
+  }
+
+  .personal_info {
+    padding-top: 120px;
+  }
+}

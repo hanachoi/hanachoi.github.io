@@ -1,12 +1,15 @@
 ---
 layout: default
+active: home
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-5 col-lg-offset-1"><p class="text-center"><img src="/assets/profile_picture.png" class="photo"></p></div>
-    <div class="col-lg-5">
-      <p class="personal_info"><strong>Hana Choi</strong></p>
+<div class="container container-custom">
+  <div class="row contact_info">
+    <div class="col-sm-4">
+      <img src="/assets/profile_picture.png" class="contact_info__photo">
+    </div>
+    <div class="col-sm-7 offset-sm-1">
+      <div class="contact_info__name">Hana Choi</div>
 
       <p>
       Ph.D. Candidate in Marketing<br>
@@ -14,45 +17,37 @@ layout: default
       </p>
 
       <address>
-      Email: <a href="mailto:hana.choi@duke.edu">hana.choi@duke.edu</a><br>
-      Phone: 336-392-2288 / 734-834-0699<br>
-      Address: 100 Fuqua Drive, Durham NC, 27708
+      <span class="contact_info__label">Email</span>: <a href="mailto:hana.choi@duke.edu">hana.choi@duke.edu</a><br>
+      <span class="contact_info__label">Phone</span>: 336-392-2288 / 734-834-0699<br>
+      <span class="contact_info__label">Address</span>: 100 Fuqua Drive, Durham NC, 27708
       </address>
     </div>
   </div>
+</div>
 
-  <hr style="margin-top: 50px;">
+<div class="research_interest" style="margin-top: 100px">
+  <div class="container container-custom">
+    <p class="text-justify"><b>Research Interests:</b><br> Digital Economy, Advertising, Consumer Search, Startup Business</p>
 
-  <div class="row" style="margin-top: 50px;">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <p class="text-justify">Research Interests:<br> Digital Economy, Advertising, Consumer Search, Startup Business</p>
+    <p class="text-justify">I combine exploratory data analysis, causal inference from field experiments, theoretical modeling, and structural modeling approaches.<br> My current research can be summarized into two research streams: display advertising and online marketplaces.</p>
 
-      <p class="text-justify">I combine exploratory data analysis, causal inference from field experiments, theoretical modeling, and structural modeling approaches.<br> My current research can be summarized into two research streams: display advertising and online marketplaces.</p>
-
-      <p class="text-justify">I will be attending the 2018 AMA Conference in Boston.</p>
-    </div>
+    <p class="text-justify">I will be attending the 2018 AMA Conference in Boston.</p>
   </div>
+</div>
 
-  <hr>
+<div class="container container-custom" style="margin-top: 100px">
+  {% for post in site.posts %}
+    {% if post.category == 'working papers' or post.category == 'publications' %}
+      <div class="post">
+        <a class="post__title" {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
+          {{ post.title }}
+        </a>
+        <div class="post__subtitle">{{ post.co-authors }}</div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
-  <div class="row" style="margin-top: 50px;">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      {% for post in site.posts %}
-        {% if post.category == 'working papers' or post.category == 'publications' %}
-          <div class="post-preview">
-            <a {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
-              <h2 class="post-title">{{ post.title }}</h2>
-              <h3 class="post-subtitle">{{ post.co-authors }}</h3>
-            </a>
-          </div>
-        {% endif %}
-      {% endfor %}
-
-      <ul class="pager">
-        <li class="next">
-          <a href="/research.html">All Research →</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<div class="text-center" style="margin-top: 80px">
+  <a class="btn btn-custom" href="/research.html">ALL RESEARCH ></a>
 </div>

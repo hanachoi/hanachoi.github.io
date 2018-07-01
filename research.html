@@ -1,14 +1,15 @@
 ---
 layout: default
+active: research
 ---
 
-<div class="container">
+<div class="container container-custom">
   {% assign categories = 'publications|working papers|work in progress' | split: '|' %}
-  {% for category in categories %}
-    {% if site.categories[category] %}
-      <div class="row researches">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          <h1 class="researches__category">
+  <div class="research__categories">
+    {% for category in categories %}
+      {% if site.categories[category] %}
+        <div class="research__category">
+          <div class="research__category_name">
             {% if category == 'publications' %}
               Publications
             {% elsif category == 'working papers' %}
@@ -16,20 +17,22 @@ layout: default
             {% elsif category == 'work in progress' %}
               Work in Progress
             {% endif %}
-          </h1>
-          <hr>
-          {% for post in site.categories[category] %}
-            <div class="post-preview">
-              <a {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
-                <h2 class="post-title">{{ post.title }}</h2>
-                <h3 class="post-subtitle">{{ post.co-authors }}</h3>
-              </a>
-              <p class="text-justify">{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-            </div>
-          {% endfor %}
-          </ul>
+          </div>
+          <div class="posts" style="margin-top: 50px">
+            {% for post in site.categories[category] %}
+              <div class="post">
+                <a class="post__title" {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
+                  {{ post.title }}
+                </a>
+                <div class="post__subtitle">{{ post.co-authors }}</div>
+                <div class="post__content">
+                  <p class="text-justify">{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
         </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

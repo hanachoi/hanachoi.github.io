@@ -1,0 +1,12 @@
+.research__category {
+  margin-top: 100px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.research__category_name {
+  font-size: 21px;
+  font-weight: bold;
+}
