@@ -12,6 +12,12 @@
   font-size: 40px;
 }
 
+@media (max-width: 575.98px) {
+  .contact_info__name {
+    margin-top: 30px;
+  }
+}
+
 .contact_info__label {
   font-weight: bold;
 }
