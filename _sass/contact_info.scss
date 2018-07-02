@@ -1,22 +1,54 @@
 .contact_info {
   font-size: 15px;
-  font-family: AppleSDGothicNeo-light, 'Times New Roman', serif;
 }
 
 .contact_info__photo {
   width: 100%;
 }
 
+.container__contact_info_photo {
+  padding: 0 4px;
+}
+
 .contact_info__name {
   font-weight: bold;
   font-size: 40px;
+  margin-top: 19px;
 }
 
 @media (max-width: 575.98px) {
   .contact_info__name {
     margin-top: 30px;
   }
+
+  .container__contact_info_photo {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .container__contact_info {
+    margin-left: 50px;
+  }
 }
+
+@media (max-width: 440px) {
+  .container__contact_info {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 411px) {
+  .container__contact_info {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 374px) {
+  .container__contact_info {
+    margin-left: 0;
+  }
+}
+
 
 .contact_info__label {
   font-weight: bold;

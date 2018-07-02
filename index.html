@@ -5,10 +5,10 @@ active: home
 
 <div class="container container-custom">
   <div class="row contact_info">
-    <div class="col-sm-4">
+    <div class="col-sm-4 container__contact_info_photo">
       <img src="/assets/profile_picture.jpg" class="contact_info__photo" alt="profile">
     </div>
-    <div class="col-sm-7 offset-sm-1">
+    <div class="col-sm-7 offset-sm-1 container__contact_info">
       <div class="contact_info__name">Hana Choi</div>
 
       <p>
@@ -25,17 +25,17 @@ active: home
   </div>
 </div>
 
-<div class="research_interest" style="margin-top: 100px">
+<div class="research_interest" style="margin-top: 90px">
   <div class="container container-custom">
     <p><b>Research Interests:</b><br> Digital Economy, Advertising, Consumer Search, Startup Business</p>
 
     <p>I combine exploratory data analysis, causal inference from field experiments, theoretical modeling, and structural modeling approaches.<br> My current research can be summarized into two research streams: display advertising and online marketplaces.</p>
 
-    <p>I will be attending the 2018 AMA Conference in Boston.</p>
+    <p class="no_margin">I will be attending the 2018 AMA Conference in Boston.</p>
   </div>
 </div>
 
-<div class="container container-custom" style="margin-top: 100px">
+<div class="container container-custom" style="margin-top: 90px">
   {% for post in site.posts %}
     {% if post.category == 'working papers' or post.category == 'publications' %}
       <div class="post">

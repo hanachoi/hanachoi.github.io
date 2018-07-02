@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "nanumgothic";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700|Source+Serif+Pro');
 @import "contact_info";
 @import "research_interest";
 @import "navbar_custom";
@@ -11,8 +11,9 @@
 @import "post";
 @import "research";
 
+
 body {
-  font-family: AppleSDGothicNeo-regular, 'Times New Roman', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #090909;
 }
 
@@ -40,6 +41,14 @@ a {
   font-size: 50px;
 }
 
+address {
+  margin-bottom: 0;
+}
+
+.no_margin {
+  margin: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .researches__category {
     font-size: 48px;
@@ -53,3 +62,4 @@ a {
     padding-top: 120px;
   }
 }
+
