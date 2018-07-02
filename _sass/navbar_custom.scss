@@ -1,17 +1,19 @@
 .navbar-custom {
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 13px;
   border-bottom: solid 1px #e1e1e1;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-left: 18px;
   margin-right: 18px;
+  letter-spacing: -0.3px;
 }
 
 .navbar-custom .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
-  font-size: 14px;
+  font-size: 15px;
+  letter-spacing: -0.3px;
 }
 
 .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
