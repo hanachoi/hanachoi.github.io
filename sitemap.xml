@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://hanachoi.github.io/</loc>
+  <lastmod>2018-07-20T15:12:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hanachoi.github.io/research.html</loc>
+  <lastmod>2018-07-20T15:12:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hanachoi.github.io/teaching.html</loc>
+  <lastmod>2018-07-20T15:12:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hanachoi.github.io/assets/hana_choi_cv.pdf</loc>
+  <lastmod>2018-07-20T15:12:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hanachoi.github.io/research-papers/choi_mela_optimal_reserve.pdf</loc>
+  <lastmod>2018-07-20T15:12:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hanachoi.github.io/research-papers/choi_mela_online_marketplace.pdf</loc>
+  <lastmod>2018-07-20T15:12:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hanachoi.github.io/research-papers/choi_et_al_review_display_advertising.pdf</loc>
+  <lastmod>2018-07-20T15:12:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
