@@ -13,7 +13,8 @@ active: home
 
       <p>
       Assistant Professor of Marketing<br>
-      Simon Business School, University of Rochester
+      Simon Business School<br>
+      University of Rochester
       </p>
 
       <address>
@@ -30,19 +31,26 @@ active: home
     <p><b>Research Interests:</b><br> Digital Economy, Advertising, Consumer Search, Startup Business</p>
 
     <p><b>Current Research Streams:</b><br> Display Advertising, Online Marketplaces</p>
-
-    <p>I combine exploratory data analysis, causal inference from field experiments, theoretical modeling, and structural modeling approaches.</p>
-  </div>
+</div>
 </div>
 
 <div class="container container-custom" style="margin-top: 90px">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
     {% if post.category == 'working papers' or post.category == 'publications' %}
       <div class="post">
         <a class="post__title" {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
           {{ post.title }}
         </a>
-        <div class="post__subtitle">{{ post.co-authors }}</div>
+        <div class="post__subtitle">
+          {{ post.co-authors }}
+          {% if post.awards.size > 0 %}
+            <ul>
+              {% for award in post.awards %}
+                <li>{{ award }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
       </div>
     {% endif %}
   {% endfor %}

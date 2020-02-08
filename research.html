@@ -24,7 +24,16 @@ active: research
                 <a class="post__title" {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
                   {{ post.title }}
                 </a>
-                <div class="post__subtitle">{{ post.co-authors }}</div>
+                <div class="post__subtitle">
+                  {{ post.co-authors }}
+                  {% if post.awards.size > 0 %}
+                    <ul>
+                      {% for award in post.awards %}
+                        <li>{{ award }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
                 <div class="post__content">
                   <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
                 </div>
