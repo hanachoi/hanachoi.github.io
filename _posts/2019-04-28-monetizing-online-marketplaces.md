@@ -1,8 +1,13 @@
 ---
 title: Monetizing Online Marketplaces
-co-authors: with Carl Mela (2019)<br> <i>Marketing Science</i>, 38, 6 (November-December), 948-972<br> MSI Working Paper Series No. 18-112-05<br> Previously titled "Online Marketplace Advertising"
+co-authors: with Carl Mela (2019), <i>Marketing Science</i>, 38, 6 (November-December), 948-972<br>
+<ul>
+    <li> Lead Article<\li>
+    <li> Previously titled "Online Marketplace Advertising"<\li>
+    <li> Featured in <a href="https://www.msi.org/reports/online-marketplace-advertising/">Marketing Science Institute Working Paper Series<\a><\li>
+<\ul>
 pdf-url: /research-papers/choi_mela_online_marketplaces.pdf
-category: working papers
+category:  publications
 ---
 
 This paper considers the monetization of online marketplaces. These platforms trade-off fees from advertising with commissions from product sales. While featuring advertised products can make search less efficient (lowering transaction commissions), it incentivizes sellers to compete for better placements via advertising (increasing advertising fees). We consider this trade-off by modeling both sides of the platform. On the demand side, we develop a joint model of browsing (impressions), clicking, and purchase. On the supply side, we consider sellers' valuations and advertising competition under various fee structures (CPM, CPC, CPA) and ranking algorithms.<br>

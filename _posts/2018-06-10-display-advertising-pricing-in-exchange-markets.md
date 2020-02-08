@@ -1,6 +1,12 @@
 ---
 title: Display Advertising Pricing in Exchange Markets
-co-authors: with Carl Mela<br><i>Job Market Paper</i>
+co-authors: with Carl Mela (2019)<br>
+<ul>
+    <li> Winner, John A. Howard/AMA Dissertation Award 2019<\li>
+    <li> Winner, ISMS Doctoral Dissertation Proposal Competition 2018<\li>
+    <li> Honorable Mention, Shankar-Spiegel Dissertation Proposal Award 2018<\li>
+    <li> MSI Research Grant 2016<\li>
+<\ul>
 pdf-url: /research-papers/choi_mela_optimal_reserve.pdf
 category: working papers
 ---

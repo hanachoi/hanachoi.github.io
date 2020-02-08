@@ -1,7 +1,7 @@
 # Site settings
-title: Hana Choi - Duke
-description: Hana Choi, Duke, Marketing, Fuqua
-keywords: Hana Choi, Duke, Marketing, Fuqua
+title: Hana Choi - University of Rochester
+description: Hana Choi, Rochester, Marketing, Simon
+keywords: Hana Choi, Rochester, Marketing, Simon
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hanachoi.github.io" # the base hostname & protocol for your site
 
