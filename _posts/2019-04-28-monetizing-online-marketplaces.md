@@ -1,11 +1,6 @@
 ---
 title: Monetizing Online Marketplaces
-co-authors: with Carl Mela (2019), <i>Marketing Science</i>, 38, 6 (November-December), 948-972<br>
-<ul>
-    <li> Lead Article<\li>
-    <li> Previously titled "Online Marketplace Advertising"<\li>
-    <li> Featured in <a href="https://www.msi.org/reports/online-marketplace-advertising/">Marketing Science Institute Working Paper Series<\a><\li>
-<\ul>
+co-authors: with Carl Mela (2019), <i>Marketing Science</i>, 38, 6 (November-December), 948-972<br><ul><li> Lead Article<\li><li> Previously titled "Online Marketplace Advertising"<\li><li> Featured in <a href="https://www.msi.org/reports/online-marketplace-advertising/">Marketing Science Institute Working Paper Series<\a><\li><\ul>
 pdf-url: /research-papers/choi_mela_online_marketplaces.pdf
 category:  publications
 ---
