@@ -1,6 +1,6 @@
 ---
 title: "Online Display Advertising Markets: A Literature Review and Future Directions"
-co-authors: with Carl Mela, Santiago Balseiro, and Adam Leary (2020)<br>Forthcoming at <i>Information Systems Research</i><br>
+co-authors: with Carl Mela, Santiago Balseiro, and Adam Leary (2020)<br> <i>Information Systems Research,</i>, 31.2: 556-575<br>
 pdf-url: /research-papers/choi_et_al_review_display_advertising.pdf
 category: publications
 ---
