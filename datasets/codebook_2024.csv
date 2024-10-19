@@ -1,0 +1,9 @@
+﻿variable,description,type
+,,
+hotel_id,Hotel ID,numeric
+price,Daily price in USD,numeric
+distance,Distance - from main city center in km,numeric
+rating,User rating average,numeric
+scarce_room,"1 if room was noted as scarce, 0 otherwise",binary
+stars,Number of stars for the hotel,numeric
+num_reviews,Number of reviews,numeric
