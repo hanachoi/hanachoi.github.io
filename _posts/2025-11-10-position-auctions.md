@@ -11,5 +11,5 @@ boost certain advertisers' positions and reduce their per-click price. Unlike se
 a quality score approach to effectively balance these monetization options.<br>
 To connect quality scores to retail revenues, the paper develops a structural model linking advertiser bids and revenues to the retailer's quality score choices coupled with a machine learning model of 
 consumer behavior. These models are estimated using auction-advertiser level data from a quality score experiment conducted at a mid-size US based retail marketplace. Policy simulations show that a quality 
-score approach that balances clicks and commissions improves retailer profits by $7\%$ and advertiser surplus by $42\%$ over click-based  approaches typically used by retailers, leading to a win-win outcome 
+score approach that balances clicks and commissions improves retailer profits by 7% and advertiser surplus by 42% over click-based  approaches typically used by retailers, leading to a win-win outcome 
 for both. 
