@@ -4,15 +4,15 @@ active: research
 ---
 
 <div class="container container-custom">
-  {% assign categories = 'publications|working papers|work in progress' | split: '|' %}
+  {% assign categories = 'working papers|publications|work in progress' | split: '|' %}
   <div class="research__categories">
     {% for category in categories %}
       {% if site.categories[category] %}
         <div class="research__category">
           <div class="research__category_name">
-            {% if category == 'working papers' %}
+            {% if category == 'publications' %}
               Publications
-            {% elsif category == 'publications' %}
+            {% elsif category == 'working papers' %}
               Working Papers
             {% elsif category == 'work in progress' %}
               Work in Progress
