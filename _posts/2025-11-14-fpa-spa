@@ -1,0 +1,17 @@
+---
+title: The Effect of First-Price vs. Second-Price Auctions on Display Advertising Markets
+co-authors: manuscript available upon request
+category: work in progress
+---
+
+In 2019, the $60 billion display advertising market was shaken when Google transitioned from a second-price to first-price auction. Many reported rationales underpinned the change, including the 
+increased transparency of the auction (an advertiser pays what they bid rather than relying on the auction partner to report the closing price), the facilitation of bidding across partners, greater 
+allocative efficiency, higher revenues for publishers, and criticisms of Google's so-called last look algorithm which purportedly enabled its exchange users to outbid competitors from competing exchanges.
+Consistent with industry views, Despotakis et al. (2021) theorize that the change to the first-price auction, precipitated by header bidding, leads to higher clearing prices.<br>
+
+Despite these beliefs, little empirical evidence exists to ascertain how the change affected auction display outcomes. Bidding became more complex as advertisers turned to various bid shading tools from 
+different vendors to manage the complex task of optimizing their bids. Left unanswered is whether this change did lead to higher bid advertiser CPMs and greater publisher revenue.<br>
+
+Using data collected during the duration of the switch, we find that i) advertisers adjust bids quickly to changes in format, ii) the FPA does not increase allocative efficiency, iii) advertisers bid 
+too low, and iv) publisher revenues suffer under FPA. We consider two possible explanations for these deviations from theoretical predictions: a) advertisers have difficulty computing optimal bids 
+and b) advertisers do not fully account for competitive bidding.
