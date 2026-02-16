@@ -1,6 +1,6 @@
 ---
 title: Optimizing Reserve Prices in Display Advertising Auctions
-co-authors: with Carl Mela (2025), conditional accept at <i>Marketing Science</i>,
+co-authors: with Carl Mela (2025), conditionally accepted at <i>Marketing Science</i>,
 awards: ['Winner, John A. Howard/AMA Dissertation Award 2019', 'Winner, ISMS Doctoral Dissertation Proposal Competition 2018', 'Honorable Mention, Shankar-Spiegel Dissertation Proposal Award 2018', 'MSI Research Grant 2016']
 pdf-url: /research-papers/choi_mela_optimal_reserve.pdf
 category: working papers
