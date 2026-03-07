@@ -1,7 +1,8 @@
 ---
-title: "Long-Term Effect of SMS Retargeting: Balancing Opt-Out and Short-Term Direct Responses"
-co-authors: "Data collected, analysis in progress"
+title: "AI-Generated Review Summaries at Scale: How Valence Emphasis Shapes Consumer Beliefs, Demand, and Returns Across 1,000 E-Commerce Websites"
+co-authors: "with Minkyung Kim"
 category: work in progress
 ---
 
-E-commerce platforms, including online marketplaces, often send out SMS messages for advertising and promotions. Using a large-scale dataset involving natural experiments, I find that SMS messages increase the average purchase amount significantly (i.e., short-term direct responses); but at the same time, they also increase consumers’ opting-out of marketing communications. I also find that less than 1% of consumers opt back in after making these opt-out decisions. Therefore, I examine the optimal SMS targeting strategy to maximize the long-term gain by considering both the rate of opt-out decisions and the effects on short-term direct responses.
+This project develops an identification strategy to infer consumers' beliefs by jointly observing purchase and return behaviors in response to changes in product reviews. We then apply this framework to study the large-scale adoption of AI-generated review summaries across more than 1,000 e-commerce websites. Leveraging variation before and after adoption, along with exogenous variation in valence emphasis, we examine how these AI-generated summaries shape consumer beliefs, product demand, and returns across product categories and platform characteristics.
+
