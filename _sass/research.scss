@@ -7,6 +7,15 @@
 }
 
 .research__category_name {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .research__category_name {
+    font-size: 22px;
+  }
 }

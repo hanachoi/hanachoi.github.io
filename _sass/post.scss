@@ -1,5 +1,5 @@
 .post {
-  margin-top: 70px;
+  margin-top: 45px;
 
   &:first-child {
     margin-top: 0;
@@ -7,9 +7,16 @@
 }
 
 .post__title {
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 37px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .post__title {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
 
 .post__subtitle {
@@ -20,6 +27,7 @@
 
   ul {
     margin-top: 13px;
+    margin-bottom: 0;
     padding-inline-start: 20px;
   }
 }
