@@ -29,3 +29,44 @@
   margin-top: 30px;
   line-height: 30px;
 }
+
+.abstract-toggle {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  display: inline-block;
+  user-select: none;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.abstract-toggle__arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  font-size: 12px;
+}
+
+.abstract-toggle.open .abstract-toggle__arrow {
+  transform: rotate(90deg);
+}
+
+.abstract-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+
+  p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #333;
+    margin-top: 12px;
+  }
+
+  &.open {
+    max-height: 1000px;
+  }
+}

@@ -34,9 +34,14 @@ active: research
                     </ul>
                   {% endif %}
                 </div>
-                <div class="post__content">
-                  <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-                </div>
+                {% if post.content != '' %}
+                  <div class="abstract-toggle" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open');">
+                    <span class="abstract-toggle__arrow">&#9656;</span> Abstract
+                  </div>
+                  <div class="abstract-content">
+                    <p>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+                  </div>
+                {% endif %}
               </div>
             {% endfor %}
           </div>
