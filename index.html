@@ -32,8 +32,8 @@ active: home
 </div>
 
 <div class="container container-custom" style="margin-top: 90px">
-  {% for post in site.posts limit:3 %}
-    {% if post.category == 'working papers' or post.category == 'publications' %}
+  {% for post in site.posts %}
+    {% if post.featured %}
       <div class="post">
         <a class="post__title" {% if post.pdf-url %}href="{{ post.pdf-url }}" target="_blank"{% endif %}>
           {{ post.title }}

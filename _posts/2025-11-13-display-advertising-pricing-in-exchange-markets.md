@@ -3,7 +3,8 @@ title: Optimizing Reserve Prices in Display Advertising Auctions
 co-authors: with Carl Mela (2026), conditionally accepted at <i>Marketing Science</i>,
 awards: ['Winner, John A. Howard/AMA Dissertation Award', 'Winner, ISMS Doctoral Dissertation Proposal Competition', 'Honorable Mention, Shankar-Spiegel Dissertation Proposal Award', 'MSI Research Grant']
 pdf-url: /research-papers/choi_mela_optimal_reserve.pdf
-category: working papers
+category: publications
+featured: true
 ---
 
 This paper examines how a publisher should set reserve prices for real-time bidding (RTB) auctions when selling display advertising impressions through ad exchanges, a $595 billion and growing market. Conducting a field experiment to induce exogenous variation in reserve prices at a major publisher, we find that setting reserve prices increases the publisher’s revenues by 35% compared to using a zero reserve price. We also find empirical evidence that advertisers face a minimum impression constraint to ensure sufficient advertising reach.<br>
