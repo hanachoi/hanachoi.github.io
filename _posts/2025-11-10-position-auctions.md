@@ -1,6 +1,6 @@
 ---
 title: Enhancing Position Auctions in Retail Media
-co-authors: with Siddharth Prusty and Carl Mela (2025), draft available upon request
+co-authors: with Siddharth Prusty and Carl Mela (2026), draft available upon request
 category: working papers
 ---
 
