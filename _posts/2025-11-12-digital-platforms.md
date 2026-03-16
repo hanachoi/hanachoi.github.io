@@ -1,6 +1,6 @@
 ---
 title: Digital Platforms 2.0 Emerging Topics, Opportunities, and Challenges
-co-authors: with Shrabastee Banerjee et al. (2026), conditionally accepted at <i>International Journal of Research in Marketing</i>
+co-authors: with Shrabastee Banerjee et al. (2026), forthcoming at <i>International Journal of Research in Marketing</i>
 pdf-url: /research-papers/digital_platforms.pdf
 category: publications
 featured: true
