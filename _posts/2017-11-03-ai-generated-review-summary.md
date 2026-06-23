@@ -1,5 +1,5 @@
 ---
-title: "AI-Generated Review Summaries and Information Complexity: Effects on Consumer Beliefs, Demand, and Product Returns Across 1,000 E-Commerce Retailers"
+title: "AI-Generated Review Summaries at Scale: How Valence Emphasis Shapes Consumer Beliefs, Demand, and Product Returns Across 1,000 E-Commerce Retailers"
 co-authors: "with Minkyung Kim"
 category: work in progress
 ---
