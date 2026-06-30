@@ -1,6 +1,5 @@
 ---
 title: Display Advertising Pricing, Allocation, and Information Sharing in Dual Channel
-co-authors: Data collected, analysis in progress
 category: work in progress
 ---
 
