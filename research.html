@@ -34,7 +34,8 @@ active: research
                     </ul>
                   {% endif %}
                 </div>
-                {% if post.content != '' %}
+                {% assign abstract = post.content | strip_html | strip %}
+                {% if abstract != '' %}
                   <div class="abstract-toggle" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open');">
                     <span class="abstract-toggle__arrow">&#9656;</span> Abstract
                   </div>
