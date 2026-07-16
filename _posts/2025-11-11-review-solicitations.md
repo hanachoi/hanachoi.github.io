@@ -1,6 +1,6 @@
 ---
 title: Do Review Solicitations Elicit Reviews Where They Matter for Sales and Product Returns?
-co-authors: with Minkyung Kim and Jinsoul Seo, under review
+co-authors: with Minkyung Kim and Jinsoul Seo, revise and resubmit at <i>Marketing Science</i>
 pdf-url: /research-papers/choi_et_al_review_solicitations.pdf
 category: working papers
 featured: true
